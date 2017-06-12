@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-framework="javascript">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+  </head>
+   <body>
+      <div id = "calcContent">
+        <form class="calculator" name="calculator">
+            <input type="button" class="calcButton" value="C" onclick="clearDisplay()" />
+            <input type="text" class="calcDisplay" id="display" />
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="7" onclick="numInput('7')" />
+                <input type="button" class="calcButton" value="8" onclick="numInput('8')" />
+                <input type="button" class="calcButton" value="9" onclick="numInput('9')" />
+                <input type="button" class="opButton" value="/" onclick="setOperation('divide')" />
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="4" onclick="numInput('4')" />
+                <input type="button" class="calcButton" value="5" onclick="numInput('5')" />
+                <input type="button" class="calcButton" value="6" onclick="numInput('6')" />
+                <input type="button" class="opButton" value="X" onclick="setOperation('multiply')" />
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="1" onclick="numInput('1')" />
+                <input type="button" class="calcButton" value="2" onclick="numInput('2')" />
+                <input type="button" class="calcButton" value="3" onclick="numInput('3')" />
+                <input type="button" class="opButton" value="-" onclick="setOperation('subtract')" />
+
+
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="0" onclick="numInput('0')" />
+                <input type="button" class="calcButton" value="." onclick="insertDecimal('.')" />
+                <input type="button" class="calcButton" value="=" onclick="calculate()" />
+                <input type="button" class="opButton" value="+" onclick="setOperation('add')" />
+
+           </div>
+         </form>
+        </div>
+    </body>
+  </html>
+    <script src="main.js"></script>
+
+  </body>
+</html>

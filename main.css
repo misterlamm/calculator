@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+}
+
+#calcContent {
+}
+
+
+#display {
+  border: 1px thin #64B255;
+  background-color: #64B255;
+  color: white;
+  width: 4.5%;
+  margin-left: -5px;
+}
+
+.calcButton {
+  border: 1px thin #64B255;
+  background-color: #64B255;
+  color: white;
+  margin-left: -5px;
+}
+
+.opButton {
+  border: 1px thin #83C178;
+  background-color: #83C178;
+  color: white;
+  margin-left: -5px;
+}
